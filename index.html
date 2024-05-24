@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html>
 <head>
   <base href="/">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Launching Soon!</title>
   <meta name="description" content="" />
   <link rel="icon" href="26387fa4f5b1e3f7b6217b27d79bf264.png" type="image/png" sizes="16x16">
   <link rel="icon" href="2d0b56e7e51cf11036ad8734bdb67e2d.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+  
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
 </head>
-<body>  
-  <div class="row">
-    <div class="column"></div>
-    <div class="column"><img src="https://digital-heralds.github.io/upgraded-happiness/logo.png"></div>
-    <div class="column">
-      <span><h1>Coming Soon!</h1></span><br>
-      <span><h3>A Charity tasked with reducing the Digital Divide</h3></span>
-      <span>span</span>    
-    </div>
-    <div class="column"></div>
-  </div>
+<body>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5"><img src="https://digital-heralds.github.io/upgraded-happiness/logo.png"><h1>Coming Soon!</h1><h3>A Charity tasked with reducing the Digital Divide</h3></div>
+  <div class="item6">6</div>
+  <div class="item7">7</div>
+  <div class="item8">8</div>  
+  <div class="item9">9</div>  
+</div>
+
+<p>You can refer to line numbers when placing grid items.</p>
+
 </body>
 </html>
