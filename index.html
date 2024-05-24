@@ -14,13 +14,11 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   font-size: 30px;
 }
@@ -28,21 +26,25 @@
 </head>
 <body>
 
-<h1>Grid Lines</h1>
-
 <div class="grid-container">
   <div class="item1">1</div>
   <div class="item2">2</div>
   <div class="item3">3</div>  
   <div class="item4">4</div>
-  <div class="item5"><img src="https://digital-heralds.github.io/upgraded-happiness/logo.png"><h1>Coming Soon!</h1><h3>A Charity tasked with reducing the Digital Divide</h3></div>
+  <div class="item5">
+    <div class="left">
+      <img src="https://digital-heralds.github.io/upgraded-happiness/logo.png">
+    </div>
+    <div class="right">
+      <h1>Coming Soon!</h1>
+      <h3>A Charity tasked with reducing the Digital Divide</h3>  
+    </div>
+  </div>
   <div class="item6">6</div>
   <div class="item7">7</div>
   <div class="item8">8</div>  
   <div class="item9">9</div>  
 </div>
-
-<p>You can refer to line numbers when placing grid items.</p>
 
 </body>
 </html>
