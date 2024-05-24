@@ -26,36 +26,41 @@
 table, th, td {
   border:1px solid black;
 }
-
 </style>
+
+<style>
+  img {
+      display: block;
+  }
+  
+  .thumbnail {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate( -50%, -50% );
+      text-align: center;
+      color: white;
+      font-weight: bold;
+  }
+</style>
+
 </head>
 <body>
-
-<div class="grid-container">
-  <div class="item1"></div>
-  <div class="item2"></div>
-  <div class="item3"></div>  
-  <div class="item4"></div>
   
-  <div class="item5">
-    <table>
-      <tr>
-        <td>
-          <img src="https://digital-heralds.github.io/upgraded-happiness/logo.png">
-        </td>
-        <td>
-          <h3>Coming Soon!</h3>
-          <p>A Charity tasked with reducing the Digital Divide</p> 
-        </td>
-      </tr>
-    </table>
+<div id="box-search">
+  <div class="thumbnail">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Granola03242006.JPG/280px-Granola03242006.JPG" alt="">
+    <div class="caption">
+      <p>Coming Soon!</p>
+      <p>A Charity tasked with reducing the Digital Divide</p>
+    </div>
   </div>
-
-  <div class="item6"></div>
-  <div class="item7"></div>
-  <div class="item8"></div>  
-  <div class="item9"></div>  
 </div>
-
+  
 </body>
 </html>
